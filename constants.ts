@@ -51,45 +51,45 @@ export const SOCIAL_LINKS = {
   hackerrank: "https://www.hackerrank.com/profile/shreyapatil2142",
   instagram: "https://www.instagram.com/shreyapatil9530",
   facebook: "https://www.facebook.com/shreyapatil9530",
-  gmail:"https://shreyapatil2142@gmail.com"
+  gmail: "https://shreyapatil2142@gmail.com"
 };
 export interface Certificate {
-  id:number
-  title:string
+  id: number
+  title: string
   image: string
 }
 
-export const certificates:Certificate[] = [
- {
-  id: 1,
-  title:"Machine Learning",
-  image:"/certificates/Machine-learning.jpg"
- },
+export const certificates: Certificate[] = [
   {
-  id: 2,
-  title:"Programming In Java",
-  image:"/certificates/Java.jpg"
- },
+    id: 1,
+    title: "Machine Learning",
+    image: "/certificates/Machine-learning.jpg"
+  },
   {
-  id: 3,
-  title:"Fundamentals of Cyber Security",
-  image:"/certificates/Cyber-security.jpg"
- },
+    id: 2,
+    title: "Programming In Java",
+    image: "/certificates/Java.jpg"
+  },
   {
-  id: 4,
-  title:"GenAI - Art of the possible",
-  image:"/certificates/AWS.jpg"
- },
+    id: 3,
+    title: "Fundamentals of Cyber Security",
+    image: "/certificates/Cyber-security.jpg"
+  },
   {
-  id: 5,
-  title:"Frontend Developer(React)",
-  image:"/certificates/react.jpg"
- },
+    id: 4,
+    title: "GenAI - Art of the possible",
+    image: "/certificates/AWS.jpg"
+  },
   {
-  id: 6,
-  title:"Digital Skills: User Experience",
-  image:"/certificates/Digital-Skills.jpg"
- },
+    id: 5,
+    title: "Frontend Developer(React)",
+    image: "/certificates/react.jpg"
+  },
+  {
+    id: 6,
+    title: "Digital Skills: User Experience",
+    image: "/certificates/Digital-Skills.jpg"
+  },
 ]
 
 export interface Project {
@@ -156,12 +156,23 @@ export const SKILLS = {
     "python",
     "java",
     "cpp",
-    "jira",
+    // "jira",
   ],
-  librariesAndFrameworks: ["gsap", "tailwind", "react", "nextjs", "sass", "typescript"],
-  databases: ["nodejs", "mysql", "mongodb",],
-  CloudAndML: ["git", "firebase", "gcloud", "jupyter", "aws", "colab",],
-  UserInterface: ["figma", "photoshop", "svg",]
+  librariesAndFrameworks: [
+    // "gsap", 
+    "tailwind", "react", "nextjs", "sass", "typescript"],
+  databases: [
+    // "nodejs", 
+    "mysql",
+    "mongodb",],
+  CloudAndML: ["git",
+    // "firebase",
+    "gcloud",
+    "jupyter",
+    // "aws",
+    // "colab",
+  ],
+  UserInterface: ["figma", "photoshop",]
 };
 
 export enum Branch {
